@@ -1,6 +1,13 @@
 # SCGradlePack
 
-# 配置实例
+# 使用
+## 引入
+
+```groovy
+
+apply "scooper.pack"
+```
+## 配置实例
 ```groovy
 scooperPack{
     tempDir = 'build\\prePack'
@@ -13,6 +20,9 @@ scooperPack{
 }
 
 ```
+
+# 打包
+执行 task scooper.projectPack
 
 # 发布
 执行task publishing.publish
